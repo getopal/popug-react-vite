@@ -1,14 +1,14 @@
-import "./App.css";
-import AppRoutes from "./routes/AppRoutes.jsx";
-import { Link } from "react-router-dom";
+import './App.css'
+import AppRoutes from './routes/AppRoutes.jsx'
+import Nav from './components/Nav.jsx'
 
 function App() {
-  return (
-    <div>
-      <Link to="/login">Login</Link>
-      <AppRoutes />
-    </div>
-  );
+	return (
+		<div>
+			<Nav />
+			<AppRoutes />
+		</div>
+	)
 }
 
-export default App;
+export default App
