@@ -9,18 +9,10 @@ const Index = () => {
 					<img src={image} alt='' />
 				</div>
 				<div className='right'>
-					<h3>Registration Form</h3>
+					<h3>Регистрация</h3>
 					<div className='form-group'>
-						<input
-							type='text'
-							placeholder='First Name'
-							className='form-control'
-						/>
-						<input
-							type='text'
-							placeholder='Last Name'
-							className='form-control'
-						/>
+						<input type='text' placeholder='Имя' className='form-control' />
+						<input type='text' placeholder='Фамилия' className='form-control' />
 					</div>
 					<div className='form-wrapper'>
 						<input

@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom'
+import s from './Nav.module.scss'
 
 const Nav = () => {
 	return (
-		<div>
+		<div className={s.nav}>
 			<Link to='/'>Главная</Link>
 			<Link to='/login'>Вход</Link>
-			<Link to='/register'>Регистрация</Link>
+			<Link to='/registr'>Регистрация</Link>
 		</div>
 	)
 }
