@@ -1,4 +1,5 @@
 import s from '../Login/Login.module.scss'
+import InputMask from '../../components/PhoneMask.jsx'
 
 const index = () => {
 	return (
@@ -9,6 +10,7 @@ const index = () => {
 					<div className={s.inputs}>
 						<input placeholder={'ФИО'} />
 						<input type={'email'} placeholder={'Электронная почта'} />
+						<InputMask />
 						<input placeholder={'Номер телефона'} />
 						<input placeholder={'Логин'} />
 						<input type={'password'} placeholder={'Пароль'} />

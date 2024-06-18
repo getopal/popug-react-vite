@@ -5,7 +5,6 @@ import Nav from './components/Nav/Nav.jsx'
 function App() {
 	return (
 		<div>
-			<Nav />
 			<AppRoutes />
 		</div>
 	)

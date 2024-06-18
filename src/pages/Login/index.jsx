@@ -1,4 +1,6 @@
 import s from './Login.module.scss'
+import InputMask from '../../components/PhoneMask.jsx'
+import { Link } from 'react-router-dom'
 
 const index = () => {
 	return (
@@ -11,6 +13,7 @@ const index = () => {
 						<input type={'password'} placeholder={'Пароль'} />
 					</div>
 					<button className={s.btn}>Войти</button>
+					<Link to='/registr'>Нет аккаунта? Зарегестрироваться</Link>
 				</div>
 			</div>
 		</div>
